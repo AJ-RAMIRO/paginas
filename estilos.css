@@ -1,0 +1,255 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos del encabezado y menú */
+header {
+    background-color: #1a237e;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.navbar .logo img {
+    height: 50px;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    display: inline;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.navbar .nav-links a:hover {
+    color: #ffc107;
+}
+
+.navbar .currency {
+    display: flex;
+    gap: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos de la sección hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 50px;
+    position: relative;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.whatsapp-btn {
+    background-color: #25d366;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128c7e;
+}
+
+.buy-games {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.buy-games h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+.games-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.game-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 700px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.game-info {
+    flex: 1;
+    text-align: left;
+}
+
+.game-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.game-info p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn-game {
+    background-color: #1a73e8;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-game:hover {
+    background-color: #0057d8;
+}
+
+.game-image img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+/* Sección Compra Códigos Digitales */
+.digital-codes {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.digital-codes h2 {
+    font-size: 2.5em;
+    color: #1d4e8e;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.digital-codes p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.codes-image img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1; /* Ocupa el espacio disponible */
+}
+
+footer {
+    background-color: #3a28dc;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1a237e;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #5029db;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    background-color: #1a237e;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;  
+}
